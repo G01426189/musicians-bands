@@ -3,11 +3,11 @@ const {Sequelize, sequelize} = require('../db');
 // TODO - define the Musician model
 let Musician = sequelize.define('musician',{
     name: {
-        type: Sequalize.STRING,
+        type: Sequelize.STRING,
         allowNULL: false
     },
     instrument: {
-        type: Sequalize.STRING,
+        type: Sequelize.STRING,
         allowNULL: false
     }
     
