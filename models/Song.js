@@ -1,7 +1,7 @@
 const {Sequelize, sequelize} = require('../db');
 
 // TODO - define the Song model
-let Song = sequelize.define('song',{
+let Song = sequelize.define('Song',{
     title: {
         type: Sequelize.STRING,
         allowNULL: false
